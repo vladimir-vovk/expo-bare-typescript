@@ -1,8 +1,9 @@
-<h1 align="center">Expo Bare TypeScript</h1>
-
 <p align="center">
-  The goal of this template is to be able to start new React Native projects quickly with tools and configurations that we love 💖
+  An opinionated template that will allow you to start a new React Native project quickly with TypeScript, Prettier, ESLint, and some custom configurations that will make our development process better. 💖
 </p>
+
+<h1 align="center">Expo Bare TypeScript</h1>
+<br>
 
 Please read [Starting React Native Project in 2022](https://dev.to/vladimirvovk/starting-a-react-native-project-in-2022-31m7) article for details.
 
@@ -18,11 +19,11 @@ Happy hacking! 🤓
 
 ## Features
 
-- [TypeScript](https://www.typescriptlang.org/)
-- Absolute path imports (e.g. `import { ComponentA } from 'src/components/A'`)
-- [Prettier](https://prettier.io/)
-- [Remove React imports](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
-- Check code for errors with [TypeScript compiler](https://www.typescriptlang.org/tsconfig#noEmit) and [ESLint](https://eslint.org/)
+- [TypeScript](https://www.typescriptlang.org/).
+- Absolute path imports (e.g. `import { ComponentA } from 'src/components/A'`).
+- [Prettier](https://prettier.io/).
+- [Remove React imports](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html).
+- Check code for errors with [TypeScript compiler](https://www.typescriptlang.org/tsconfig#noEmit) and [ESLint](https://eslint.org/).
 
 ## Available commands
 
