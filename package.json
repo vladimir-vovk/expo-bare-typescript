@@ -1,6 +1,7 @@
 {
   "name": "@vladimir-vovk/expo-bare-typescript",
   "version": "2021.12.28",
+  "description": "React Native new project start template with Expo, TypeScript, ESLint and Prettier",
   "main": "index.js",
   "scripts": {
     "start": "expo start --dev-client",
@@ -48,6 +49,5 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.5.1",
     "typescript": "~4.3.5"
-  },
-  "private": false
+  }
 }
