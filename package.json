@@ -1,12 +1,31 @@
 {
-  "name": "expo-bare-typescript",
-  "version": "1.0.0",
+  "name": "@vladimir-vovk/expo-bare-typescript",
+  "version": "2021.12.28",
   "main": "index.js",
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "check-typescript": "tsc --noEmit",
+    "check-eslint": "eslint './src/**/*{js,ts,jsx,tsx}'",
+    "lint": "yarn check-typescript && yarn check-eslint"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "typescript",
+    "template"
+  ],
+  "author": "Vladimir Vovk",
+  "license": "MIT",
+  "homepage": "https://github.com/expo-bare-typescript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimir-vovk/expo-bare-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vladimir-vovk/expo-bare-typescript/issues"
   },
   "dependencies": {
     "expo": "~44.0.2",
@@ -18,7 +37,17 @@
     "react-native-web": "0.17.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@types/react": "~17.0.21",
+    "@types/react-native": "~0.64.12",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.5.0",
+    "eslint-config-universe": "^9.0.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.5.1",
+    "typescript": "~4.3.5"
   },
   "private": true
 }
