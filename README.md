@@ -1,5 +1,5 @@
 <p align="center">
-  An opinionated template that will allow you to start a new React Native project quickly with TypeScript, Prettier, ESLint, and some custom configurations that will make our development process better. 💖
+  An opinionated template that will allow you to start a new React Native project quickly with TypeScript, Prettier, ESLint, and some custom configurations that will make development process better. 💖
 </p>
 
 <h1 align="center">Expo Bare TypeScript</h1>
