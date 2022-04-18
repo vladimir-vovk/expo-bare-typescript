@@ -43,6 +43,7 @@
     "@types/react-native": "~0.64.12",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
+    "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "^8.5.0",
     "eslint-config-universe": "^9.0.0",
     "eslint-import-resolver-typescript": "^2.5.0",
