@@ -5,7 +5,9 @@
 <h1 align="center">Expo Bare TypeScript</h1>
 <br>
 
-Please read [Starting React Native Project in 2022](https://dev.to/vladimirvovk/starting-a-react-native-project-in-2022-31m7) article for details.
+Please read [Starting React Native Project in 2022](https://dev.to/vladimirvovk/starting-a-react-native-project-in-2022-31m7) article for details. 
+
+Based on **Expo 45.0.0**
 
 ## Quick start
 
