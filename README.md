@@ -30,4 +30,5 @@ Happy hacking! 🤓
 - `yarn start` - start Metro Bundler.
 - `yarn ios` - build and run iOS.
 - `yarn android` - build and run Android.
+- `yarn web` - run on web.
 - `yarn lint` - check code for errors.
