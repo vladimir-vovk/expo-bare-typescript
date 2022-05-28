@@ -6,6 +6,5 @@
     "assetBundlePatterns": [
       "**/*"
     ]
-  },
-  "name": "expo-bare-typescript"
+  }
 }

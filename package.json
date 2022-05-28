@@ -1,7 +1,7 @@
 {
   "name": "@vladimir-vovk/expo-bare-typescript",
-  "version": "2021.12.28",
-  "description": "React Native new project start template with Expo, TypeScript, ESLint and Prettier",
+  "version": "2022.05.28",
+  "description": "A template to start new bare React Native project with Expo configs, TypeScript, ESLint and Prettier",
   "main": "index.js",
   "scripts": {
     "start": "expo start --dev-client",
@@ -20,7 +20,7 @@
   ],
   "author": "Vladimir Vovk",
   "license": "MIT",
-  "homepage": "https://github.com/expo-bare-typescript",
+  "homepage": "https://github.com/vladimir-vovk/expo-bare-typescript",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vladimir-vovk/expo-bare-typescript.git"
@@ -29,26 +29,27 @@
     "url": "https://github.com/vladimir-vovk/expo-bare-typescript/issues"
   },
   "dependencies": {
-    "expo": "~44.0.2",
-    "expo-splash-screen": "~0.14.1",
-    "expo-status-bar": "~1.2.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "expo": "~45.0.0",
+    "expo-splash-screen": "~0.15.1",
+    "expo-status-bar": "~1.3.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-web": "0.17.7"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@types/react": "~17.0.21",
-    "@types/react-native": "~0.64.12",
-    "@typescript-eslint/eslint-plugin": "^5.8.1",
-    "@typescript-eslint/parser": "^5.8.1",
+    "@types/react-native": "~0.67.6",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
     "babel-plugin-module-resolver": "^4.1.0",
-    "eslint": "^8.5.0",
-    "eslint-config-universe": "^9.0.0",
-    "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "prettier": "^2.5.1",
+    "eslint": "^8.16.0",
+    "eslint-config-universe": "^11.0.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "prettier": "^2.6.2",
     "typescript": "~4.3.5"
-  }
+  },
+  "private": true
 }
