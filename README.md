@@ -34,3 +34,4 @@ Happy hacking! 🤓
 - `yarn android` - build and run Android.
 - `yarn web` - run on web.
 - `yarn lint` - check code for errors.
+- `yarn release` - generate a changelog, bump the version of app and create a new tag.
