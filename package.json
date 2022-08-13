@@ -1,7 +1,6 @@
 {
-  "name": "@vladimir-vovk/expo-bare-typescript",
-  "version": "2022.07.14",
-  "description": "An opinionated template that will allow you to start a new React Native project quickly with TypeScript, Prettier, ESLint, and some custom configurations that will make development process better",
+  "name": "expo-bare-typescript",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "expo start --dev-client",
@@ -14,48 +13,33 @@
     "release": "standard-version",
     "prepare": "husky install"
   },
-  "keywords": [
-    "react-native",
-    "expo",
-    "typescript",
-    "template"
-  ],
-  "author": "Vladimir Vovk",
-  "license": "MIT",
-  "homepage": "https://github.com/vladimir-vovk/expo-bare-typescript",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vladimir-vovk/expo-bare-typescript.git"
-  },
-  "bugs": {
-    "url": "https://github.com/vladimir-vovk/expo-bare-typescript/issues"
-  },
   "dependencies": {
-    "expo": "~45.0.0",
-    "expo-splash-screen": "~0.15.1",
-    "expo-status-bar": "~1.3.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-native": "0.68.2",
-    "react-native-web": "0.17.7"
+    "@types/react": "~18.0.0",
+    "@types/react-native": "~0.69.1",
+    "expo": "~46.0.7",
+    "expo-splash-screen": "~0.16.1",
+    "expo-status-bar": "~1.4.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.4",
+    "react-native-web": "~0.18.7",
+    "typescript": "^4.6.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
-    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
-    "@types/react": "~17.0.21",
-    "@types/react-native": "~0.67.6",
-    "@typescript-eslint/eslint-plugin": "^5.26.0",
-    "@typescript-eslint/parser": "^5.26.0",
+    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
     "babel-plugin-module-resolver": "^4.1.0",
-    "eslint": "^8.16.0",
-    "eslint-config-universe": "^11.0.0",
-    "eslint-import-resolver-typescript": "^2.7.1",
-    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint": "^8.21.0",
+    "eslint-config-universe": "^11.1.0",
+    "eslint-import-resolver-typescript": "^3.4.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.1",
-    "prettier": "^2.6.2",
-    "standard-version": "^9.5.0",
-    "typescript": "~4.3.5"
-  }
+    "prettier": "^2.7.1",
+    "standard-version": "^9.5.0"
+  },
+  "private": true
 }

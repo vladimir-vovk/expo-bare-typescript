@@ -5,7 +5,7 @@
 <h1 align="center">Expo Bare TypeScript</h1>
 <br>
 
-Using [Expo 45](https://blog.expo.dev/expo-sdk-45-f4e332954a68). 
+Using [Expo 46](https://blog.expo.dev/expo-sdk-46-c2a1655f63f7). 
 
 Please read [Starting React Native Project in 2022](https://dev.to/vladimirvovk/starting-a-react-native-project-in-2022-31m7) article for details. 
 
@@ -26,6 +26,8 @@ Happy hacking! 🤓
 - [Prettier](https://prettier.io/).
 - [Remove React imports](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html).
 - Check code for errors with [TypeScript compiler](https://www.typescriptlang.org/tsconfig#noEmit) and [ESLint](https://eslint.org/).
+- Generate changelog with [standard-version](https://github.com/conventional-changelog/standard-version).
+- Lint commits with [Husky](https://github.com/typicode/husky).
 
 ## Available commands
 
