@@ -1,6 +1,7 @@
 {
-  "name": "expo-bare-typescript",
-  "version": "1.0.0",
+  "name": "@vladimir-vovk/expo-bare-typescript",
+  "version": "2022.08.14",
+  "description": "An opinionated template that will allow you to start a new React Native project quickly with TypeScript, Prettier, ESLint, and some custom configurations that will make development process better",
   "main": "index.js",
   "scripts": {
     "start": "expo start --dev-client",
@@ -12,6 +13,22 @@
     "lint": "yarn check-typescript && yarn check-eslint",
     "release": "standard-version",
     "prepare": "husky install"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "typescript",
+    "template"
+  ],
+  "author": "Vladimir Vovk",
+  "license": "MIT",
+  "homepage": "https://github.com/vladimir-vovk/expo-bare-typescript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimir-vovk/expo-bare-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vladimir-vovk/expo-bare-typescript/issues"
   },
   "dependencies": {
     "@types/react": "~18.0.0",
@@ -25,6 +42,7 @@
     "react-native-web": "~0.18.7",
     "typescript": "^4.6.3"
   },
+  "private": false,
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@commitlint/cli": "^17.0.3",
