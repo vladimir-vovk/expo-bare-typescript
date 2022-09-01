@@ -14,6 +14,12 @@
     "release": "standard-version",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint './src/**/*{js,ts,jsx,tsx}' --fix",
+      "prettier --write './src/**/*{js,ts,jsx,tsx}'"
+    ]
+  },
   "keywords": [
     "react-native",
     "expo",
@@ -55,6 +61,7 @@
     "eslint-import-resolver-typescript": "^3.4.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "standard-version": "^9.5.0"
   }

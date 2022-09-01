@@ -12,5 +12,9 @@ module.exports = {
     'import/resolver': {
       typescript: {} // this loads <rootdir>/tsconfig.json to ESLint
     }
+  },
+  /* lint-staged */
+  globals: {
+    __dirname: true
   }
 }
