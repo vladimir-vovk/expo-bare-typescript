@@ -1,6 +1,6 @@
 {
   "name": "@vladimir-vovk/expo-bare-typescript",
-  "version": "2022.08.14",
+  "version": "2022.09.01",
   "description": "An opinionated template that will allow you to start a new React Native project quickly with TypeScript, Prettier, ESLint, and some custom configurations that will make development process better",
   "main": "index.js",
   "scripts": {
