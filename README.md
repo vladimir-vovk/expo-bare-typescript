@@ -24,10 +24,12 @@ Happy hacking! 🤓
 - [TypeScript](https://www.typescriptlang.org/).
 - Absolute path imports (e.g. `import { ComponentA } from 'src/components/A'`).
 - [Prettier](https://prettier.io/).
+- Automaticaly sort imports on save.
 - [Remove React imports](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html).
 - Check code for errors with [TypeScript compiler](https://www.typescriptlang.org/tsconfig#noEmit) and [ESLint](https://eslint.org/).
 - Generate changelog with [standard-version](https://github.com/conventional-changelog/standard-version).
 - Lint commits with [Husky](https://github.com/typicode/husky).
+- [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context).
 
 ## Available commands
 
